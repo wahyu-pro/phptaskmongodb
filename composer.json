@@ -1,0 +1,19 @@
+{
+    "name": "wahyu/mongodb",
+    "description": "Aplikasi crud dengan mongodb",
+    "authors": [
+        {
+            "name": "Wahyu Wibowo",
+            "email": "wahyuoxs135@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "classmap": ["app"]
+    }
+}
